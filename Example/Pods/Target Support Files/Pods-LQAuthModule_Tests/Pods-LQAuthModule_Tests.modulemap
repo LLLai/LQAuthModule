@@ -1,0 +1,6 @@
+framework module Pods_LQAuthModule_Tests {
+  umbrella header "Pods-LQAuthModule_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module LQAuthModule {
+  umbrella header "LQAuthModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

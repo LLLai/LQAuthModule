@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LQAuthModule (0.1.0):
+    - LQNetWorkingModule
+  - LQNetWorkingModule (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LQAuthModule (from `../`)
+  - LQNetWorkingModule (from `../../LQNetWorkingModule`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LQAuthModule:
+    :path: "../"
+  LQNetWorkingModule:
+    :path: "../../LQNetWorkingModule"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LQAuthModule: 4b6e48a89094ffd5204f039effc6027be7856d71
+  LQNetWorkingModule: 69bdb16033881fa6f9ad1e9ac0dde097af370980
+
+PODFILE CHECKSUM: f5ea6ea6e8658d621edac7a39a9753afe7c7171c
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,1260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F866C4F7C716C82A04ED3C449FDD092 /* QuartzCore.framework */; };
+		1C6BC4B0E820B827AC1DA81AB7AB605D /* Pods-LQAuthModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA1D6F92595F75EA407359EA6DA616D /* Pods-LQAuthModule_Tests-dummy.m */; };
+		1C922F9CC9268FD6848B1889A535C98B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE989711184F5674C9634B7C466029 /* Foundation.framework */; };
+		26BF7210E7E03849162EE64EC102E1A4 /* Pods-LQAuthModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D4E921593B81947DD77B94AD1E6EA06 /* Pods-LQAuthModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		2EA44A37BECAAFA52C282900E71ECDEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE989711184F5674C9634B7C466029 /* Foundation.framework */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49B315D35AFBD3584E5629A019DFFA42 /* LQNetWorkingModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1897A252D1931C67E3AFE984E86887 /* LQNetWorkingModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B1501AF65A1EC317F36630F896D391 /* Pods-LQAuthModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1966392DE30A409BC65017EF9E5EDD9 /* Pods-LQAuthModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63EFD7B8A700FF68704C7C971F86871F /* XCTest.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
+		79382600200706161EA304C1811BCDA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE989711184F5674C9634B7C466029 /* Foundation.framework */; };
+		804F4CC0472A528CBD44CB56439C1F9A /* LQAuthModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D73D78A2244DE0A882546A7EF0737A1A /* LQAuthModule-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
+		8DA71689E883946B61055C803C6EAC0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE989711184F5674C9634B7C466029 /* Foundation.framework */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9429DA7A8CB318B9BAC9FF30DDB29D64 /* LQAuthManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A055138DB80028BEB850C3F2F2580E /* LQAuthManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		A1DC68B095B2A798202FDA2A0D05C883 /* LQNetWorkingModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 946CFAA967F7D1D32B2D2883CB0BD5D8 /* LQNetWorkingModule-dummy.m */; };
+		A4DC7796A67C600AA56B534B94B23D0B /* Pods-LQAuthModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C45D056E99FA03494C1EBE375462B9F /* Pods-LQAuthModule_Example-dummy.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		B06DF7A57AB7535D502597A013528578 /* LQNetWorkingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 110F26B8434F71E526C1AF950D509376 /* LQNetWorkingManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBE989711184F5674C9634B7C466029 /* Foundation.framework */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B818328215A388CB105699D9391236B7 /* LQNetWorkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3E78B012657A9CDDBE7C120F31146A /* LQNetWorkingManager.m */; };
+		B986716765123DC1BCC4C89743D079AE /* LQAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A4D300ACBD8507B3F6112EE965F57A /* LQAuthManager.m */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4D8FB0BF66BF777F75F735C11348D8 /* UIKit.framework */; };
+		E5E1943106AAC23D25EEF909B3F1171A /* LQAuthModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4051B858305A8BF2735F45DEC9A25E7 /* LQAuthModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F303DC3092CE52FD74354E349185C887 /* LQNetWorkingModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9836283D424C0DD3CEE6F22FCA00E2 /* LQNetWorkingModule.framework */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8442F762EE4E4834E6D43C9321005964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		A2CB8C2BF88DB4FA7FFE91A9E88D300B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E1DEC915351B293EA6A15CCB9C5314;
+			remoteInfo = LQNetWorkingModule;
+		};
+		ABF6790C56281BF1F5B63BB8FC7D70CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1252ED751AB359B635E6DCF3C1BCA26;
+			remoteInfo = "Pods-LQAuthModule_Example";
+		};
+		ACC270B214A6DCF5FC90727A1D274819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4E1DEC915351B293EA6A15CCB9C5314;
+			remoteInfo = LQNetWorkingModule;
+		};
+		EE1E9808E82B7AFFBBEDC7781781C8B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 695E416D1E828C5B7CEEACEFD79BDC41;
+			remoteInfo = LQAuthModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027CDF131EB0BF817A2BD57818C45687 /* LQNetWorkingModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LQNetWorkingModule.release.xcconfig; sourceTree = "<group>"; };
+		06A08A7A24DEDA2C05383302FA1A36F9 /* LQAuthModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LQAuthModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		110F26B8434F71E526C1AF950D509376 /* LQNetWorkingManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LQNetWorkingManager.h; path = LQNetWorkingModule/Classes/Public/LQNetWorkingManager.h; sourceTree = "<group>"; };
+		1264ADD0450954FEF7028BD11A29BE44 /* LQAuthModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LQAuthModule.modulemap; sourceTree = "<group>"; };
+		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		1E8A18D0599DC76517001A0924298545 /* LQAuthModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LQAuthModule-Info.plist"; sourceTree = "<group>"; };
+		1ED3E438BD7DD14E8BBE12DBF085B846 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		2EAAD2034C96538CBEE82A2E970BD43C /* Pods-LQAuthModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LQAuthModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2F224F0B8235FD9D22F968623B4F5133 /* Pods-LQAuthModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQAuthModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		32C33520AA7ABEA6025388DB6B9048A4 /* Pods_LQAuthModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LQAuthModule_Example.framework; path = "Pods-LQAuthModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B757610D4EA15279BA33534E1E902B /* Pods-LQAuthModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQAuthModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3FBE989711184F5674C9634B7C466029 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		41D3979A43DD222A3886C18D26F41465 /* LQNetWorkingModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LQNetWorkingModule-Info.plist"; sourceTree = "<group>"; };
+		42558751E8028CBDE24375D56177F3B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		44B823E6531BDFCA31B702E237EE31C9 /* LQNetWorkingModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LQNetWorkingModule.debug.xcconfig; sourceTree = "<group>"; };
+		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		4A4D8FB0BF66BF777F75F735C11348D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		55392A3AF8E9E288F2F7D279A8C5D036 /* Pods-LQAuthModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LQAuthModule_Tests.modulemap"; sourceTree = "<group>"; };
+		56719FEC9B091AF40B22C5A3C929624D /* Pods-LQAuthModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQAuthModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58B280F4526F54EE0D940E7300A6C213 /* LQAuthModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LQAuthModule.framework; path = LQAuthModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EFD7B8A700FF68704C7C971F86871F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6C3EBB527E3D05FF43473D1DFF3FA4B3 /* Pods-LQAuthModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LQAuthModule_Example.modulemap"; sourceTree = "<group>"; };
+		6C9836283D424C0DD3CEE6F22FCA00E2 /* LQNetWorkingModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LQNetWorkingModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D998316EB099F44C6C1CEF54298C732 /* Pods-LQAuthModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQAuthModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1897A252D1931C67E3AFE984E86887 /* LQNetWorkingModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LQNetWorkingModule-umbrella.h"; sourceTree = "<group>"; };
+		7D4E921593B81947DD77B94AD1E6EA06 /* Pods-LQAuthModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LQAuthModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		84924DE31BD9E297BA971F8899BB69AC /* Pods-LQAuthModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LQAuthModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		8C45D056E99FA03494C1EBE375462B9F /* Pods-LQAuthModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LQAuthModule_Example-dummy.m"; sourceTree = "<group>"; };
+		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		8F44E009D4123D6A54750D7D65B16013 /* Pods-LQAuthModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LQAuthModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8F866C4F7C716C82A04ED3C449FDD092 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		946CFAA967F7D1D32B2D2883CB0BD5D8 /* LQNetWorkingModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LQNetWorkingModule-dummy.m"; sourceTree = "<group>"; };
+		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		984C005ED93525C248C24E9E59D528DA /* Pods-LQAuthModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQAuthModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1966392DE30A409BC65017EF9E5EDD9 /* Pods-LQAuthModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LQAuthModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		A41D4B98BCEF02D904A2AFEE187BD6CB /* Pods-LQAuthModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LQAuthModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACC924F3C86EBEE09D9418C2B863CBB3 /* Pods-LQAuthModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQAuthModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		AE52D2C1017AB426394017E6B3689680 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		B3A510FA9B90075F4CFF1983B1DC2D53 /* LQNetWorkingModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LQNetWorkingModule.framework; path = LQNetWorkingModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4051B858305A8BF2735F45DEC9A25E7 /* LQAuthModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LQAuthModule-umbrella.h"; sourceTree = "<group>"; };
+		B48FEFC3586A41176DBD09EB2442D491 /* LQNetWorkingModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LQNetWorkingModule-prefix.pch"; sourceTree = "<group>"; };
+		B53758632DFA374C0CC938CB18D6F282 /* Pods-LQAuthModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LQAuthModule_Example-Info.plist"; sourceTree = "<group>"; };
+		B59131B35A2CC9E03C00C29B7C4894FC /* LQAuthModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LQAuthModule.debug.xcconfig; sourceTree = "<group>"; };
+		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B82DE24DEF70DF8DFE2F7B7C4567C004 /* LQNetWorkingModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LQNetWorkingModule.modulemap; sourceTree = "<group>"; };
+		BB97FA88251F3DF46B183CE9B47E1766 /* LQAuthModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LQAuthModule-prefix.pch"; sourceTree = "<group>"; };
+		BE3E78B012657A9CDDBE7C120F31146A /* LQNetWorkingManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LQNetWorkingManager.m; path = LQNetWorkingModule/Classes/Public/LQNetWorkingManager.m; sourceTree = "<group>"; };
+		C2F62BBB92A926C18401620EE07013C5 /* Pods_LQAuthModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LQAuthModule_Tests.framework; path = "Pods-LQAuthModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A055138DB80028BEB850C3F2F2580E /* LQAuthManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LQAuthManager.h; path = LQAuthModule/Classes/Public/LQAuthManager.h; sourceTree = "<group>"; };
+		CA58B1A58C5A5A0C41B6BE0CC94EF1B5 /* Pods-LQAuthModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LQAuthModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D73D78A2244DE0A882546A7EF0737A1A /* LQAuthModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LQAuthModule-dummy.m"; sourceTree = "<group>"; };
+		D852F2499E58987E9E033D5331AF7D87 /* LQAuthModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LQAuthModule.release.xcconfig; sourceTree = "<group>"; };
+		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DB289E1E732FEB24375B11772594B4DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DFA1D6F92595F75EA407359EA6DA616D /* Pods-LQAuthModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LQAuthModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		E6CF9782324C0EDB6912D8159D1536A2 /* LQNetWorkingModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LQNetWorkingModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6A4D300ACBD8507B3F6112EE965F57A /* LQAuthManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LQAuthManager.m; path = LQAuthModule/Classes/Public/LQAuthManager.m; sourceTree = "<group>"; };
+		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50DD4D2B5AA02DA1534C6E02B40A5AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C922F9CC9268FD6848B1889A535C98B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D746FBCDB8455E56DFA9AA79558ED18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79382600200706161EA304C1811BCDA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7473246B398BF8027FE336B8E33AC060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA44A37BECAAFA52C282900E71ECDEF /* Foundation.framework in Frameworks */,
+				F303DC3092CE52FD74354E349185C887 /* LQNetWorkingModule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */,
+				14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */,
+				E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */,
+				6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2C645DD14AAF655CDD4A0E2A4685FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA71689E883946B61055C803C6EAC0D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07FEB9638F4301E620B3BB12002E5FF9 /* LQNetWorkingModule */ = {
+			isa = PBXGroup;
+			children = (
+				110F26B8434F71E526C1AF950D509376 /* LQNetWorkingManager.h */,
+				BE3E78B012657A9CDDBE7C120F31146A /* LQNetWorkingManager.m */,
+				59B08B21F3EC18903727BD231ED39D29 /* Pod */,
+				3574F927DC2550763FA1557C8F459DBF /* Support Files */,
+			);
+			name = LQNetWorkingModule;
+			path = ../../../LQNetWorkingModule;
+			sourceTree = "<group>";
+		};
+		0AE8F6EFB48152D8163FEB1E4B7E5FA9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1ED3E438BD7DD14E8BBE12DBF085B846 /* LICENSE */,
+				06A08A7A24DEDA2C05383302FA1A36F9 /* LQAuthModule.podspec */,
+				AE52D2C1017AB426394017E6B3689680 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3574F927DC2550763FA1557C8F459DBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B82DE24DEF70DF8DFE2F7B7C4567C004 /* LQNetWorkingModule.modulemap */,
+				946CFAA967F7D1D32B2D2883CB0BD5D8 /* LQNetWorkingModule-dummy.m */,
+				41D3979A43DD222A3886C18D26F41465 /* LQNetWorkingModule-Info.plist */,
+				B48FEFC3586A41176DBD09EB2442D491 /* LQNetWorkingModule-prefix.pch */,
+				7D1897A252D1931C67E3AFE984E86887 /* LQNetWorkingModule-umbrella.h */,
+				44B823E6531BDFCA31B702E237EE31C9 /* LQNetWorkingModule.debug.xcconfig */,
+				027CDF131EB0BF817A2BD57818C45687 /* LQNetWorkingModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../LQAuthModule/Example/Pods/Target Support Files/LQNetWorkingModule";
+			sourceTree = "<group>";
+		};
+		413F841E63AD8DD273B4F7FFBFDF7EC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1264ADD0450954FEF7028BD11A29BE44 /* LQAuthModule.modulemap */,
+				D73D78A2244DE0A882546A7EF0737A1A /* LQAuthModule-dummy.m */,
+				1E8A18D0599DC76517001A0924298545 /* LQAuthModule-Info.plist */,
+				BB97FA88251F3DF46B183CE9B47E1766 /* LQAuthModule-prefix.pch */,
+				B4051B858305A8BF2735F45DEC9A25E7 /* LQAuthModule-umbrella.h */,
+				B59131B35A2CC9E03C00C29B7C4894FC /* LQAuthModule.debug.xcconfig */,
+				D852F2499E58987E9E033D5331AF7D87 /* LQAuthModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LQAuthModule";
+			sourceTree = "<group>";
+		};
+		448FBAAAC6A38FDB12547F5DE34F0FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				58B280F4526F54EE0D940E7300A6C213 /* LQAuthModule.framework */,
+				B3A510FA9B90075F4CFF1983B1DC2D53 /* LQNetWorkingModule.framework */,
+				32C33520AA7ABEA6025388DB6B9048A4 /* Pods_LQAuthModule_Example.framework */,
+				C2F62BBB92A926C18401620EE07013C5 /* Pods_LQAuthModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
+				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
+				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
+				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
+				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
+				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
+				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
+				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
+				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
+				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
+				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
+				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
+				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
+				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		59B08B21F3EC18903727BD231ED39D29 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DB289E1E732FEB24375B11772594B4DF /* LICENSE */,
+				E6CF9782324C0EDB6912D8159D1536A2 /* LQNetWorkingModule.podspec */,
+				42558751E8028CBDE24375D56177F3B1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		72D99ABE4850B8375FD65E87C00DCDE9 /* LQAuthModule */ = {
+			isa = PBXGroup;
+			children = (
+				C7A055138DB80028BEB850C3F2F2580E /* LQAuthManager.h */,
+				F6A4D300ACBD8507B3F6112EE965F57A /* LQAuthManager.m */,
+				0AE8F6EFB48152D8163FEB1E4B7E5FA9 /* Pod */,
+				413F841E63AD8DD273B4F7FFBFDF7EC6 /* Support Files */,
+			);
+			name = LQAuthModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7A79B858542D72DD84140A29A4E74B42 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FBE989711184F5674C9634B7C466029 /* Foundation.framework */,
+				8F866C4F7C716C82A04ED3C449FDD092 /* QuartzCore.framework */,
+				4A4D8FB0BF66BF777F75F735C11348D8 /* UIKit.framework */,
+				63EFD7B8A700FF68704C7C971F86871F /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		92D0828AA59789F749EF0E3C6B22EC16 /* Pods-LQAuthModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55392A3AF8E9E288F2F7D279A8C5D036 /* Pods-LQAuthModule_Tests.modulemap */,
+				A41D4B98BCEF02D904A2AFEE187BD6CB /* Pods-LQAuthModule_Tests-acknowledgements.markdown */,
+				56719FEC9B091AF40B22C5A3C929624D /* Pods-LQAuthModule_Tests-acknowledgements.plist */,
+				DFA1D6F92595F75EA407359EA6DA616D /* Pods-LQAuthModule_Tests-dummy.m */,
+				2EAAD2034C96538CBEE82A2E970BD43C /* Pods-LQAuthModule_Tests-frameworks.sh */,
+				ACC924F3C86EBEE09D9418C2B863CBB3 /* Pods-LQAuthModule_Tests-Info.plist */,
+				7D4E921593B81947DD77B94AD1E6EA06 /* Pods-LQAuthModule_Tests-umbrella.h */,
+				6D998316EB099F44C6C1CEF54298C732 /* Pods-LQAuthModule_Tests.debug.xcconfig */,
+				84924DE31BD9E297BA971F8899BB69AC /* Pods-LQAuthModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-LQAuthModule_Tests";
+			path = "Target Support Files/Pods-LQAuthModule_Tests";
+			sourceTree = "<group>";
+		};
+		934A8CD96B216B6EBAB72060A5567682 /* Pods-LQAuthModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C3EBB527E3D05FF43473D1DFF3FA4B3 /* Pods-LQAuthModule_Example.modulemap */,
+				CA58B1A58C5A5A0C41B6BE0CC94EF1B5 /* Pods-LQAuthModule_Example-acknowledgements.markdown */,
+				984C005ED93525C248C24E9E59D528DA /* Pods-LQAuthModule_Example-acknowledgements.plist */,
+				8C45D056E99FA03494C1EBE375462B9F /* Pods-LQAuthModule_Example-dummy.m */,
+				8F44E009D4123D6A54750D7D65B16013 /* Pods-LQAuthModule_Example-frameworks.sh */,
+				B53758632DFA374C0CC938CB18D6F282 /* Pods-LQAuthModule_Example-Info.plist */,
+				A1966392DE30A409BC65017EF9E5EDD9 /* Pods-LQAuthModule_Example-umbrella.h */,
+				2F224F0B8235FD9D22F968623B4F5133 /* Pods-LQAuthModule_Example.debug.xcconfig */,
+				38B757610D4EA15279BA33534E1E902B /* Pods-LQAuthModule_Example.release.xcconfig */,
+			);
+			name = "Pods-LQAuthModule_Example";
+			path = "Target Support Files/Pods-LQAuthModule_Example";
+			sourceTree = "<group>";
+		};
+		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
+				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
+				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
+				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
+				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
+				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
+				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				4BA2479549DD918290454B1CDCD0B92B /* Core */,
+				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
+				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CAFFBFDAE26366BE493F9CBCEB769375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C9836283D424C0DD3CEE6F22FCA00E2 /* LQNetWorkingModule.framework */,
+				7A79B858542D72DD84140A29A4E74B42 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D15BCF0EEB6A1D2D05D5CF56281EBAF4 /* Development Pods */,
+				CAFFBFDAE26366BE493F9CBCEB769375 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				448FBAAAC6A38FDB12547F5DE34F0FBB /* Products */,
+				FC76E0252BF118ED09FC635D2DBA4EED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D15BCF0EEB6A1D2D05D5CF56281EBAF4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72D99ABE4850B8375FD65E87C00DCDE9 /* LQAuthModule */,
+				07FEB9638F4301E620B3BB12002E5FF9 /* LQNetWorkingModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC76E0252BF118ED09FC635D2DBA4EED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				934A8CD96B216B6EBAB72060A5567682 /* Pods-LQAuthModule_Example */,
+				92D0828AA59789F749EF0E3C6B22EC16 /* Pods-LQAuthModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		258210D1913D2A3928B5D2E1668FF7A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06DF7A57AB7535D502597A013528578 /* LQNetWorkingManager.h in Headers */,
+				49B315D35AFBD3584E5629A019DFFA42 /* LQNetWorkingModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4584003CCE3CE9733ABEFFD7DA995F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9429DA7A8CB318B9BAC9FF30DDB29D64 /* LQAuthManager.h in Headers */,
+				E5E1943106AAC23D25EEF909B3F1171A /* LQAuthModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A919DB9487E772AAF69D0021BE6B783 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26BF7210E7E03849162EE64EC102E1A4 /* Pods-LQAuthModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E99177165F135FD1E7B74EB4958D412 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60B1501AF65A1EC317F36630F896D391 /* Pods-LQAuthModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		695E416D1E828C5B7CEEACEFD79BDC41 /* LQAuthModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9921802C3D83A461BE7C717D7F9612F /* Build configuration list for PBXNativeTarget "LQAuthModule" */;
+			buildPhases = (
+				6D4584003CCE3CE9733ABEFFD7DA995F /* Headers */,
+				AC425045EEF15FED1DA803503C36D79F /* Sources */,
+				7473246B398BF8027FE336B8E33AC060 /* Frameworks */,
+				A656D1D2BEB41244AF4BBFE09EBB4257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A597C543DF6FD3ED103A30D58BD6F9C /* PBXTargetDependency */,
+			);
+			name = LQAuthModule;
+			productName = LQAuthModule;
+			productReference = 58B280F4526F54EE0D940E7300A6C213 /* LQAuthModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4E1DEC915351B293EA6A15CCB9C5314 /* LQNetWorkingModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8651FF81F694EBD7C0564DB8298169A /* Build configuration list for PBXNativeTarget "LQNetWorkingModule" */;
+			buildPhases = (
+				258210D1913D2A3928B5D2E1668FF7A2 /* Headers */,
+				C7E767B3A8AE3F16FBE41B1B985B2F98 /* Sources */,
+				6D746FBCDB8455E56DFA9AA79558ED18 /* Frameworks */,
+				D27AF4F19EF6629AF2D8850AA328AA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LQNetWorkingModule;
+			productName = LQNetWorkingModule;
+			productReference = B3A510FA9B90075F4CFF1983B1DC2D53 /* LQNetWorkingModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E44BA52BB8764D0660C14C1050B3B6FB /* Pods-LQAuthModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7B19B3ACFD54C1AE0A8CFEE7BC0851 /* Build configuration list for PBXNativeTarget "Pods-LQAuthModule_Tests" */;
+			buildPhases = (
+				9A919DB9487E772AAF69D0021BE6B783 /* Headers */,
+				72BFCFEFE81C18258BE7211AAC9195A4 /* Sources */,
+				EE2C645DD14AAF655CDD4A0E2A4685FA /* Frameworks */,
+				B40D8AC03EA86FA76B2DAB9946182AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4131EB524CAC3148C55FBAE40264F72D /* PBXTargetDependency */,
+				B212953E3AFBE64CA9ABF3245EF2ED3B /* PBXTargetDependency */,
+			);
+			name = "Pods-LQAuthModule_Tests";
+			productName = "Pods-LQAuthModule_Tests";
+			productReference = C2F62BBB92A926C18401620EE07013C5 /* Pods_LQAuthModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1252ED751AB359B635E6DCF3C1BCA26 /* Pods-LQAuthModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A79BB55CF9E570767EE029AE6B4657 /* Build configuration list for PBXNativeTarget "Pods-LQAuthModule_Example" */;
+			buildPhases = (
+				9E99177165F135FD1E7B74EB4958D412 /* Headers */,
+				66293165E9BE5CAE74E941A4A53BD77A /* Sources */,
+				50DD4D2B5AA02DA1534C6E02B40A5AA3 /* Frameworks */,
+				6A6C02E12123EDF5A72CC4EEFFF0ED4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27024084AE327A2271C30CBE0ABEA59E /* PBXTargetDependency */,
+				F01CABEED62019DB3638DC1581ECB65E /* PBXTargetDependency */,
+			);
+			name = "Pods-LQAuthModule_Example";
+			productName = "Pods-LQAuthModule_Example";
+			productReference = 32C33520AA7ABEA6025388DB6B9048A4 /* Pods_LQAuthModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 448FBAAAC6A38FDB12547F5DE34F0FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				695E416D1E828C5B7CEEACEFD79BDC41 /* LQAuthModule */,
+				C4E1DEC915351B293EA6A15CCB9C5314 /* LQNetWorkingModule */,
+				F1252ED751AB359B635E6DCF3C1BCA26 /* Pods-LQAuthModule_Example */,
+				E44BA52BB8764D0660C14C1050B3B6FB /* Pods-LQAuthModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6C02E12123EDF5A72CC4EEFFF0ED4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A656D1D2BEB41244AF4BBFE09EBB4257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B40D8AC03EA86FA76B2DAB9946182AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27AF4F19EF6629AF2D8850AA328AA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66293165E9BE5CAE74E941A4A53BD77A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DC7796A67C600AA56B534B94B23D0B /* Pods-LQAuthModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72BFCFEFE81C18258BE7211AAC9195A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BC4B0E820B827AC1DA81AB7AB605D /* Pods-LQAuthModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC425045EEF15FED1DA803503C36D79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B986716765123DC1BCC4C89743D079AE /* LQAuthManager.m in Sources */,
+				804F4CC0472A528CBD44CB56439C1F9A /* LQAuthModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E767B3A8AE3F16FBE41B1B985B2F98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B818328215A388CB105699D9391236B7 /* LQNetWorkingManager.m in Sources */,
+				A1DC68B095B2A798202FDA2A0D05C883 /* LQNetWorkingModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27024084AE327A2271C30CBE0ABEA59E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LQAuthModule;
+			target = 695E416D1E828C5B7CEEACEFD79BDC41 /* LQAuthModule */;
+			targetProxy = EE1E9808E82B7AFFBBEDC7781781C8B8 /* PBXContainerItemProxy */;
+		};
+		4131EB524CAC3148C55FBAE40264F72D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 8442F762EE4E4834E6D43C9321005964 /* PBXContainerItemProxy */;
+		};
+		4A597C543DF6FD3ED103A30D58BD6F9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LQNetWorkingModule;
+			target = C4E1DEC915351B293EA6A15CCB9C5314 /* LQNetWorkingModule */;
+			targetProxy = A2CB8C2BF88DB4FA7FFE91A9E88D300B /* PBXContainerItemProxy */;
+		};
+		B212953E3AFBE64CA9ABF3245EF2ED3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LQAuthModule_Example";
+			target = F1252ED751AB359B635E6DCF3C1BCA26 /* Pods-LQAuthModule_Example */;
+			targetProxy = ABF6790C56281BF1F5B63BB8FC7D70CF /* PBXContainerItemProxy */;
+		};
+		F01CABEED62019DB3638DC1581ECB65E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LQNetWorkingModule;
+			target = C4E1DEC915351B293EA6A15CCB9C5314 /* LQNetWorkingModule */;
+			targetProxy = ACC270B214A6DCF5FC90727A1D274819 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		130D6FB3A6C79F10F7D8A919A47302C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59131B35A2CC9E03C00C29B7C4894FC /* LQAuthModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LQAuthModule/LQAuthModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LQAuthModule/LQAuthModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LQAuthModule/LQAuthModule.modulemap";
+				PRODUCT_MODULE_NAME = LQAuthModule;
+				PRODUCT_NAME = LQAuthModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AC358FE28A13106FE12492B7E1F1639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027CDF131EB0BF817A2BD57818C45687 /* LQNetWorkingModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LQNetWorkingModule/LQNetWorkingModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LQNetWorkingModule/LQNetWorkingModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LQNetWorkingModule/LQNetWorkingModule.modulemap";
+				PRODUCT_MODULE_NAME = LQNetWorkingModule;
+				PRODUCT_NAME = LQNetWorkingModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		536F7F02A660A9981D2896A935E43653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D852F2499E58987E9E033D5331AF7D87 /* LQAuthModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LQAuthModule/LQAuthModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LQAuthModule/LQAuthModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LQAuthModule/LQAuthModule.modulemap";
+				PRODUCT_MODULE_NAME = LQAuthModule;
+				PRODUCT_NAME = LQAuthModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		543DDA88C68253669E876E5CBB65198E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84924DE31BD9E297BA971F8899BB69AC /* Pods-LQAuthModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQAuthModule_Tests/Pods-LQAuthModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQAuthModule_Tests/Pods-LQAuthModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66E7C4B031BA8415FB6989E5AFC58EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F224F0B8235FD9D22F968623B4F5133 /* Pods-LQAuthModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQAuthModule_Example/Pods-LQAuthModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQAuthModule_Example/Pods-LQAuthModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E6EF3FAA63018E176311811677CCFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44B823E6531BDFCA31B702E237EE31C9 /* LQNetWorkingModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LQNetWorkingModule/LQNetWorkingModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LQNetWorkingModule/LQNetWorkingModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LQNetWorkingModule/LQNetWorkingModule.modulemap";
+				PRODUCT_MODULE_NAME = LQNetWorkingModule;
+				PRODUCT_NAME = LQNetWorkingModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E3E82CB9265A7AF754C823201F4B5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B757610D4EA15279BA33534E1E902B /* Pods-LQAuthModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQAuthModule_Example/Pods-LQAuthModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQAuthModule_Example/Pods-LQAuthModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8944F0EEA6D349DD23E38BDE128AD799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D998316EB099F44C6C1CEF54298C732 /* Pods-LQAuthModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LQAuthModule_Tests/Pods-LQAuthModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LQAuthModule_Tests/Pods-LQAuthModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7B19B3ACFD54C1AE0A8CFEE7BC0851 /* Build configuration list for PBXNativeTarget "Pods-LQAuthModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8944F0EEA6D349DD23E38BDE128AD799 /* Debug */,
+				543DDA88C68253669E876E5CBB65198E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
+				BE874B114A0991701B09229EAAA4CA84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9921802C3D83A461BE7C717D7F9612F /* Build configuration list for PBXNativeTarget "LQAuthModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130D6FB3A6C79F10F7D8A919A47302C6 /* Debug */,
+				536F7F02A660A9981D2896A935E43653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A79BB55CF9E570767EE029AE6B4657 /* Build configuration list for PBXNativeTarget "Pods-LQAuthModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66E7C4B031BA8415FB6989E5AFC58EBB /* Debug */,
+				7E3E82CB9265A7AF754C823201F4B5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8651FF81F694EBD7C0564DB8298169A /* Build configuration list for PBXNativeTarget "LQNetWorkingModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6EF3FAA63018E176311811677CCFA0 /* Debug */,
+				3AC358FE28A13106FE12492B7E1F1639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

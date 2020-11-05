@@ -1,0 +1,6 @@
+framework module Pods_LQAuthModule_Example {
+  umbrella header "Pods-LQAuthModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
