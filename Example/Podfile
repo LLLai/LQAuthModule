@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LQAuthModule_Example' do
+  pod 'LQAuthModule', :path => '../'
+
+  target 'LQAuthModule_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
